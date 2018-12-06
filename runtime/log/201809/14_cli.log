@@ -1,0 +1,48 @@
+[ 2018-09-14T16:47:43+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-14T16:47:43+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-14T16:47:43+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.020001s ]
+[ 2018-09-14T16:47:43+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.021001s ]
+[ 2018-09-14T16:47:43+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-14T16:47:43+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'pub',
+  ),
+)
+[ 2018-09-14T16:47:43+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-14T16:47:43+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-14T16:47:43+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-14T16:47:43+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005000s ]
+[ 2018-09-14T16:47:43+08:00 ][ info ] [ TOKEN ] INIT Mysql
+[ 2018-09-14T16:47:43+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-09-14T16:47:43+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-09-14T16:47:43+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.025001s ]
+[ 2018-09-14T16:47:43+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000000s ]
+[ 2018-09-14T16:48:21+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-14T16:48:21+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-14T16:48:21+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-14T16:48:21+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-14T16:48:21+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-14T16:48:21+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'pub',
+  ),
+)
+[ 2018-09-14T16:48:21+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-14T16:48:21+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-14T16:48:21+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-14T16:48:21+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ 2018-09-14T16:48:21+08:00 ][ info ] [ RUN ] app\api\controller\Test->pub[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]

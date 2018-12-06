@@ -1,0 +1,977 @@
+---------------------------------------------------------------
+[ 2018-10-11T11:17:59+08:00 ] 127.0.0.1 GET /
+[ info ] 127.0.0.4/ [运行时间：0.779044s][吞吐率：1.28req/s] [内存消耗：2,877.32kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.044002s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.044002s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=1%7C86400%7C1536889267%7Cfdf568bb3e40eff08d6a46c8585ccc2e; uid=3; token=2270e93f-eccc-4b59-af0e-e079232d322f; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1536383872,1537263526,1537855413,1538201110',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.030002s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '41246b59ab14d79aa86ac82e50276dbefd4a401d' LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-11T11:18:01+08:00 ] 127.0.0.1 GET /favicon.ico
+[ info ] 127.0.0.4/favicon.ico [运行时间：0.115007s][吞吐率：8.70req/s] [内存消耗：1,563.00kb] [文件加载：55]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.010001s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010001s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=1%7C86400%7C1536889267%7Cfdf568bb3e40eff08d6a46c8585ccc2e; uid=3; token=2270e93f-eccc-4b59-af0e-e079232d322f; PHPSESSID=cdn09995l1t43dt4cui6vej3s4; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1537263526,1537855413,1538201110,1539227881; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539227881',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.4/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-11T11:18:01+08:00 ] 127.0.0.1 GET /admin
+[ info ] 127.0.0.4/admin [运行时间：0.252015s][吞吐率：3.97req/s] [内存消耗：2,059.91kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=1%7C86400%7C1536889267%7Cfdf568bb3e40eff08d6a46c8585ccc2e; uid=3; token=2270e93f-eccc-4b59-af0e-e079232d322f; PHPSESSID=cdn09995l1t43dt4cui6vej3s4; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1537263526,1537855413,1538201110,1539227881; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539227881',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/common\view\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-11T11:18:01+08:00 ] 127.0.0.1 GET /admin
+[ info ] 127.0.0.4/admin [运行时间：0.084004s][吞吐率：11.90req/s] [内存消耗：2,059.91kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.009001s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009001s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=1%7C86400%7C1536889267%7Cfdf568bb3e40eff08d6a46c8585ccc2e; uid=3; token=2270e93f-eccc-4b59-af0e-e079232d322f; PHPSESSID=cdn09995l1t43dt4cui6vej3s4; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1537263526,1537855413,1538201110,1539227881; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539227881',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/common\view\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-11T11:18:03+08:00 ] 127.0.0.1 GET /admin/index/login?url=%2Fadmin
+[ info ] 127.0.0.4/admin/index/login?url=%2Fadmin [运行时间：0.161009s][吞吐率：6.21req/s] [内存消耗：2,360.73kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.007001s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007001s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=1%7C86400%7C1536889267%7Cfdf568bb3e40eff08d6a46c8585ccc2e; uid=3; token=2270e93f-eccc-4b59-af0e-e079232d322f; PHPSESSID=cdn09995l1t43dt4cui6vej3s4; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1537263526,1537855413,1538201110,1539227881; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539227881',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.4/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/admin',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-11T11:18:03+08:00 ] 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=index&v=1539227883
+[ info ] 127.0.0.4/admin/ajax/lang?callback=define&controllername=index&v=1539227883 [运行时间：0.080004s][吞吐率：12.50req/s] [内存消耗：2,361.14kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004001s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004001s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=1%7C86400%7C1536889267%7Cfdf568bb3e40eff08d6a46c8585ccc2e; uid=3; token=2270e93f-eccc-4b59-af0e-e079232d322f; PHPSESSID=cdn09995l1t43dt4cui6vej3s4; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1537263526,1537855413,1538201110,1539227881; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539227881',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.4/admin/index/login?url=%2Fadmin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1539227883',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-11T11:18:07+08:00 ] 127.0.0.1 POST /admin/index/login?url=%2Fadmin
+[ info ] 127.0.0.4/admin/index/login?url=%2Fadmin [运行时间：0.273015s][吞吐率：3.66req/s] [内存消耗：3,055.54kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.008000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=1%7C86400%7C1536889267%7Cfdf568bb3e40eff08d6a46c8585ccc2e; uid=3; token=2270e93f-eccc-4b59-af0e-e079232d322f; PHPSESSID=cdn09995l1t43dt4cui6vej3s4; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1537263526,1537855413,1538201110,1539227881; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539227881',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.4/admin/index/login?url=%2Fadmin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.4',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '75',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/admin',
+  '__token__' => '4699c91f3d4c957c33c5a9ac4fd1ab3f',
+  'username' => 'admin',
+  'password' => 'admin123',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.074004s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.036002s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `fa_admin`  SET `logintime`=1539227887,`token`='d55b024e-dc75-45dc-b9a9-e13f23c7e406',`updatetime`=1539227887  WHERE  `id` = 1 [ RunTime:0.041002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.028002s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin\",\"__token__\":\"4699c91f3d4c957c33c5a9ac4fd1ab3f\",\"username\":\"admin\"}' , '/admin/index/login?url=%2Fadmin' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36' , '127.0.0.1' , 1539227887) [ RunTime:0.044002s ]
+---------------------------------------------------------------
+[ 2018-10-11T11:18:09+08:00 ] 127.0.0.1 GET /admin
+[ info ] 127.0.0.4/admin [运行时间：1.377078s][吞吐率：0.73req/s] [内存消耗：3,362.63kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.007000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=1%7C86400%7C1536889267%7Cfdf568bb3e40eff08d6a46c8585ccc2e; uid=3; token=2270e93f-eccc-4b59-af0e-e079232d322f; PHPSESSID=cdn09995l1t43dt4cui6vej3s4; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1537263526,1537855413,1538201110,1539227881; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539227881',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.4/admin/index/login?url=%2Fadmin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-11T11:18:09+08:00 ] 127.0.0.1 GET /admin/dashboard?addtabs=1
+[ info ] 127.0.0.4/admin/dashboard?addtabs=1 [运行时间：0.222013s][吞吐率：4.50req/s] [内存消耗：3,154.87kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.007000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=1%7C86400%7C1536889267%7Cfdf568bb3e40eff08d6a46c8585ccc2e; uid=3; token=2270e93f-eccc-4b59-af0e-e079232d322f; PHPSESSID=cdn09995l1t43dt4cui6vej3s4; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1537263526,1537855413,1538201110,1539227881; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539227881',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.4/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.002001s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-11T11:18:09+08:00 ] 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=index&v=1539227888
+[ info ] 127.0.0.4/admin/ajax/lang?callback=define&controllername=index&v=1539227888 [运行时间：0.073005s][吞吐率：13.70req/s] [内存消耗：2,361.12kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=1%7C86400%7C1536889267%7Cfdf568bb3e40eff08d6a46c8585ccc2e; uid=3; token=2270e93f-eccc-4b59-af0e-e079232d322f; PHPSESSID=cdn09995l1t43dt4cui6vej3s4; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1537263526,1537855413,1538201110,1539227881; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539227881',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.4/admin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1539227888',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002001s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-11T11:18:10+08:00 ] 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=dashboard&v=1539227889
+[ info ] 127.0.0.4/admin/ajax/lang?callback=define&controllername=dashboard&v=1539227889 [运行时间：0.083005s][吞吐率：12.05req/s] [内存消耗：2,359.70kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005001s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005001s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=1%7C86400%7C1536889267%7Cfdf568bb3e40eff08d6a46c8585ccc2e; uid=3; token=2270e93f-eccc-4b59-af0e-e079232d322f; PHPSESSID=cdn09995l1t43dt4cui6vej3s4; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1537263526,1537855413,1538201110,1539227881; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539227881',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.4/admin/dashboard?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1539227889',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-11T11:18:12+08:00 ] 127.0.0.1 GET /admin/order/order_list?addtabs=1
+[ info ] 127.0.0.4/admin/order/order_list?addtabs=1 [运行时间：0.187011s][吞吐率：5.35req/s] [内存消耗：3,283.76kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => 'order_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=1%7C86400%7C1536889267%7Cfdf568bb3e40eff08d6a46c8585ccc2e; uid=3; token=2270e93f-eccc-4b59-af0e-e079232d322f; PHPSESSID=cdn09995l1t43dt4cui6vej3s4; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1537263526,1537855413,1538201110,1539227881; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539227881',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.4/admin/order/order_list?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Order->order_list[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\admin\controller\Order.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_order` [ RunTime:0.021002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_order` WHERE  (  deleted=0 ) LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `order_id`,`order_sn`,`user_id`,`order_status`,`shipping_status`,`pay_status`,`consignee`,`mobile`,`pay_name`,`goods_price`,`order_amount`,`total_amount`,`add_time`,`pay_time`,`prom_type` FROM `fa_order` WHERE  (  deleted=0 ) LIMIT 0,10 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-11T11:24:08+08:00 ] 127.0.0.1 GET /api/user/login
+[ info ] 127.0.0.4/api/user/login [运行时间：0.147008s][吞吐率：6.80req/s] [内存消耗：1,801.46kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.007001s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007001s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=1%7C86400%7C1536889267%7Cfdf568bb3e40eff08d6a46c8585ccc2e; uid=3; token=2270e93f-eccc-4b59-af0e-e079232d322f; PHPSESSID=cdn09995l1t43dt4cui6vej3s4; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1537263526,1537855413,1538201110,1539227881; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539227881',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004001s ]
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '='[C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\User.php:272]
+---------------------------------------------------------------
+[ 2018-10-11T11:24:31+08:00 ] 127.0.0.1 GET /api/user/login
+[ info ] 127.0.0.4/api/user/login [运行时间：0.060004s][吞吐率：16.67req/s] [内存消耗：1,810.19kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005001s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005001s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=1%7C86400%7C1536889267%7Cfdf568bb3e40eff08d6a46c8585ccc2e; uid=3; token=2270e93f-eccc-4b59-af0e-e079232d322f; PHPSESSID=cdn09995l1t43dt4cui6vej3s4; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1537263526,1537855413,1538201110,1539227881; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539227881',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '=>' (T_DOUBLE_ARROW)[C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\User.php:302]
+---------------------------------------------------------------
+[ 2018-10-11T11:24:55+08:00 ] 127.0.0.1 GET /api/user/login
+[ info ] 127.0.0.4/api/user/login [运行时间：0.117007s][吞吐率：8.55req/s] [内存消耗：2,916.05kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005001s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005001s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=1%7C86400%7C1536889267%7Cfdf568bb3e40eff08d6a46c8585ccc2e; uid=3; token=2270e93f-eccc-4b59-af0e-e079232d322f; PHPSESSID=cdn09995l1t43dt4cui6vej3s4; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1537263526,1537855413,1538201110,1539227881; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539227881',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->login[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '41246b59ab14d79aa86ac82e50276dbefd4a401d' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-11T11:25:46+08:00 ] 127.0.0.1 GET /api/user/login/username/test1/password/admin123
+[ info ] 127.0.0.4/api/user/login/username/test1/password/admin123 [运行时间：0.131007s][吞吐率：7.63req/s] [内存消耗：2,916.10kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004001s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004001s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=1%7C86400%7C1536889267%7Cfdf568bb3e40eff08d6a46c8585ccc2e; uid=3; token=2270e93f-eccc-4b59-af0e-e079232d322f; PHPSESSID=cdn09995l1t43dt4cui6vej3s4; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1537263526,1537855413,1538201110,1539227881; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539227881',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'test1',
+  'password' => 'admin123',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->login[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '41246b59ab14d79aa86ac82e50276dbefd4a401d' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`salt`,`password` FROM `fa_user` WHERE  (  username ='test1' ) LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] INSERT INTO `fa_user_token` (`token` , `createtime` , `expiretime` , `user_id`) VALUES ('1f0d62c5-d965-4b6d-a9de-6cdd6ae9080e' , '1539228346' , '1541820346' , 3) [ RunTime:0.039002s ]
+---------------------------------------------------------------
+[ 2018-10-11T11:27:26+08:00 ] 127.0.0.1 GET /api/user/login/username/test1/password/admin123
+[ info ] 127.0.0.4/api/user/login/username/test1/password/admin123 [运行时间：0.134008s][吞吐率：7.46req/s] [内存消耗：2,899.80kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=1%7C86400%7C1536889267%7Cfdf568bb3e40eff08d6a46c8585ccc2e; uid=3; token=2270e93f-eccc-4b59-af0e-e079232d322f; PHPSESSID=cdn09995l1t43dt4cui6vej3s4; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1537263526,1537855413,1538201110,1539227881; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539227881',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'test1',
+  'password' => 'admin123',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->login[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '41246b59ab14d79aa86ac82e50276dbefd4a401d' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`salt`,`password` FROM `fa_user` WHERE  (  username ='test1' ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `fa_user_token` (`token` , `createtime` , `expiretime` , `user_id`) VALUES ('8f3276d0d1e52bebac021b845fa6dbc28f3276d0d1e52bebac021b845fa6dbc2' , '1539228446' , '1541820446' , 3) [ RunTime:0.044002s ]
+---------------------------------------------------------------
+[ 2018-10-11T11:27:56+08:00 ] 127.0.0.1 GET /api/user/edit_user_info
+[ info ] 127.0.0.4/api/user/edit_user_info [运行时间：0.095006s][吞吐率：10.53req/s] [内存消耗：2,963.84kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005001s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005001s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'edit_user_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=1%7C86400%7C1536889267%7Cfdf568bb3e40eff08d6a46c8585ccc2e; uid=3; token=2270e93f-eccc-4b59-af0e-e079232d322f; PHPSESSID=cdn09995l1t43dt4cui6vej3s4; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1537263526,1537855413,1538201110,1539227881; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539227881',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->edit_user_info[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '41246b59ab14d79aa86ac82e50276dbefd4a401d' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [1]Class 'app\api\controller\CommonController' not found[C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\User.php:228]
+---------------------------------------------------------------
+[ 2018-10-11T11:28:04+08:00 ] 127.0.0.1 GET /api/user/edit_user_info
+[ info ] 127.0.0.4/api/user/edit_user_info [运行时间：0.105006s][吞吐率：9.52req/s] [内存消耗：2,973.01kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'edit_user_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=1%7C86400%7C1536889267%7Cfdf568bb3e40eff08d6a46c8585ccc2e; uid=3; token=2270e93f-eccc-4b59-af0e-e079232d322f; PHPSESSID=cdn09995l1t43dt4cui6vej3s4; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1537263526,1537855413,1538201110,1539227881; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539227881',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->edit_user_info[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\User.php ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api/lang/zh-cn/user.php
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '41246b59ab14d79aa86ac82e50276dbefd4a401d' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `user_id` FROM `fa_user_token` WHERE  (  token='' ) LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [4096]Object of class think\response\Json could not be converted to string[C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\User.php:230]
+---------------------------------------------------------------
+[ 2018-10-11T11:29:06+08:00 ] 127.0.0.1 GET /api/user/edit_user_info
+[ info ] 127.0.0.4/api/user/edit_user_info [运行时间：0.089005s][吞吐率：11.24req/s] [内存消耗：2,906.13kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004001s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004001s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'edit_user_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=1%7C86400%7C1536889267%7Cfdf568bb3e40eff08d6a46c8585ccc2e; uid=3; token=2270e93f-eccc-4b59-af0e-e079232d322f; PHPSESSID=cdn09995l1t43dt4cui6vej3s4; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1537263526,1537855413,1538201110,1539227881; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539227881',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->edit_user_info[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\User.php ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api/lang/zh-cn/user.php
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '41246b59ab14d79aa86ac82e50276dbefd4a401d' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `user_id` FROM `fa_user_token` WHERE  (  token='' ) LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-11T11:29:22+08:00 ] 127.0.0.1 GET /api/user/edit_user_info/token/8f3276d0d1e52bebac021b845fa6dbc28f3276d0d1e52bebac
+[ info ] 127.0.0.4/api/user/edit_user_info/token/8f3276d0d1e52bebac021b845fa6dbc28f3276d0d1e52bebac [运行时间：0.084005s][吞吐率：11.90req/s] [内存消耗：2,871.25kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'edit_user_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'keeplogin=1%7C86400%7C1536889267%7Cfdf568bb3e40eff08d6a46c8585ccc2e; uid=3; token=2270e93f-eccc-4b59-af0e-e079232d322f; PHPSESSID=cdn09995l1t43dt4cui6vej3s4; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1537263526,1537855413,1538201110,1539227881; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1539227881',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'token' => '8f3276d0d1e52bebac021b845fa6dbc28f3276d0d1e52bebac',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->edit_user_info[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\User.php ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api/lang/zh-cn/user.php
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '41246b59ab14d79aa86ac82e50276dbefd4a401d' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `user_id` FROM `fa_user_token` WHERE  (  token='8f3276d0d1e52bebac021b845fa6dbc28f3276d0d1e52bebac' ) LIMIT 1 [ RunTime:0.001000s ]

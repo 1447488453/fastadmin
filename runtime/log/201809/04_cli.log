@@ -1,0 +1,704 @@
+[ 2018-09-04T18:45:31+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-04T18:45:31+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-04T18:45:31+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-04T18:45:31+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-04T18:45:31+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-04T18:45:31+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ 2018-09-04T18:45:31+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-04T18:45:31+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-04T18:45:31+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-04T18:45:31+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ 2018-09-04T18:45:31+08:00 ][ info ] [ RUN ] app\api\controller\Index->index[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Index.php ]
+[ 2018-09-04T18:45:31+08:00 ][ error ] [0]not support: redis[C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\library\think\cache\driver\Redis.php:44]
+[ 2018-09-04T19:06:14+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-04T19:06:14+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-04T19:06:14+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-04T19:06:14+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-04T19:06:14+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-04T19:06:14+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ 2018-09-04T19:06:14+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-04T19:06:14+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-04T19:06:14+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-04T19:06:14+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ 2018-09-04T19:06:14+08:00 ][ info ] [ RUN ] app\api\controller\Index->index[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Index.php ]
+[ 2018-09-04T19:06:14+08:00 ][ error ] [0]not support: redis[C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\library\think\cache\driver\Redis.php:44]
+[ 2018-09-04T19:06:48+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-04T19:06:48+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-04T19:06:48+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004001s ]
+[ 2018-09-04T19:06:48+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005001s ]
+[ 2018-09-04T19:06:48+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-04T19:06:48+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ 2018-09-04T19:06:48+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-04T19:06:48+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-04T19:06:48+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-04T19:06:48+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-04T19:06:48+08:00 ][ info ] [ RUN ] app\api\controller\Index->index[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Index.php ]
+[ 2018-09-04T19:06:48+08:00 ][ error ] [0]not support: redis[C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\library\think\cache\driver\Redis.php:44]
+[ 2018-09-04T19:32:23+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-04T19:32:23+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-04T19:32:23+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004001s ]
+[ 2018-09-04T19:32:23+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005001s ]
+[ 2018-09-04T19:32:23+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-04T19:32:23+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'redis',
+  ),
+)
+[ 2018-09-04T19:32:23+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-04T19:32:23+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-04T19:32:23+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-04T19:32:23+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-04T19:32:23+08:00 ][ info ] [ TOKEN ] INIT Mysql
+[ 2018-09-04T19:32:23+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-09-04T19:32:23+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-09-04T19:32:23+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.008000s ]
+[ 2018-09-04T19:32:23+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.001000s ]
+[ 2018-09-04T19:33:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-04T19:33:05+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-04T19:33:05+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-04T19:33:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-04T19:33:05+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-04T19:33:05+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'redis',
+  ),
+)
+[ 2018-09-04T19:33:05+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-04T19:33:05+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-04T19:33:05+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-04T19:33:05+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ 2018-09-04T19:33:05+08:00 ][ info ] [ TOKEN ] INIT Mysql
+[ 2018-09-04T19:33:05+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-09-04T19:33:05+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-09-04T19:33:05+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.008000s ]
+[ 2018-09-04T19:33:05+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000000s ]
+[ 2018-09-04T19:33:51+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-04T19:33:51+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-04T19:33:51+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-04T19:33:51+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ 2018-09-04T19:33:51+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-04T19:33:51+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'redis',
+  ),
+)
+[ 2018-09-04T19:33:51+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-04T19:33:51+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-04T19:33:51+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-04T19:33:51+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-04T19:33:51+08:00 ][ info ] [ TOKEN ] INIT Mysql
+[ 2018-09-04T19:33:51+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-09-04T19:33:51+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-09-04T19:33:51+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.007000s ]
+[ 2018-09-04T19:33:51+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000000s ]
+[ 2018-09-04T19:35:36+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-04T19:35:36+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-04T19:35:36+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-04T19:35:36+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-04T19:35:36+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-04T19:35:37+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ 2018-09-04T19:35:37+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-04T19:35:37+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-04T19:35:37+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/index\lang\zh-cn.php
+[ 2018-09-04T19:35:37+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003001s ]
+[ 2018-09-04T19:35:37+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ 2018-09-04T19:35:37+08:00 ][ info ] [ RUN ] app\index\controller\Index->index[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\index\controller\Index.php ]
+[ 2018-09-04T19:35:37+08:00 ][ info ] [ VIEW ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ 2018-09-04T19:35:50+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-04T19:35:50+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-04T19:35:50+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-04T19:35:50+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-04T19:35:50+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-04T19:35:50+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'redis',
+  ),
+)
+[ 2018-09-04T19:35:50+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-04T19:35:50+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-04T19:35:50+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-04T19:35:50+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002001s ]
+[ 2018-09-04T19:35:50+08:00 ][ info ] [ TOKEN ] INIT Mysql
+[ 2018-09-04T19:35:50+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-09-04T19:35:50+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-09-04T19:35:50+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.008000s ]
+[ 2018-09-04T19:35:50+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000000s ]
+[ 2018-09-04T19:36:01+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-04T19:36:01+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-04T19:36:01+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003000s ]
+[ 2018-09-04T19:36:01+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ 2018-09-04T19:36:01+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-04T19:36:01+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ 2018-09-04T19:36:01+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-04T19:36:01+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-04T19:36:01+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-04T19:36:01+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ 2018-09-04T19:36:01+08:00 ][ info ] [ TOKEN ] INIT Mysql
+[ 2018-09-04T19:36:01+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-09-04T19:36:01+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-09-04T19:36:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.007001s ]
+[ 2018-09-04T19:36:01+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000000s ]
+[ 2018-09-04T19:36:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-04T19:36:05+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-04T19:36:05+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-04T19:36:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-04T19:36:05+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-04T19:36:05+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ 2018-09-04T19:36:05+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-04T19:36:05+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-04T19:36:05+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-04T19:36:05+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-04T19:36:05+08:00 ][ info ] [ RUN ] app\api\controller\Index->index[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Index.php ]
+[ 2018-09-04T19:36:05+08:00 ][ error ] [0]not support: redis[C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\library\think\cache\driver\Redis.php:44]
+[ 2018-09-04T19:36:17+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-04T19:36:18+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-04T19:36:18+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006001s ]
+[ 2018-09-04T19:36:18+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007001s ]
+[ 2018-09-04T19:36:18+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-04T19:36:18+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'redis',
+  ),
+)
+[ 2018-09-04T19:36:18+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-04T19:36:18+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-04T19:36:18+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-04T19:36:18+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-04T19:36:18+08:00 ][ info ] [ TOKEN ] INIT Mysql
+[ 2018-09-04T19:36:18+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-09-04T19:36:18+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-09-04T19:36:18+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.007000s ]
+[ 2018-09-04T19:36:18+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000000s ]
+[ 2018-09-04T19:40:41+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-04T19:40:41+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-04T19:40:41+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-04T19:40:41+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005001s ]
+[ 2018-09-04T19:40:41+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-04T19:40:41+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'redis',
+  ),
+)
+[ 2018-09-04T19:40:41+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-04T19:40:41+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-04T19:40:41+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-04T19:40:41+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ 2018-09-04T19:40:41+08:00 ][ info ] [ TOKEN ] INIT Mysql
+[ 2018-09-04T19:40:41+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-09-04T19:40:41+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-09-04T19:40:41+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.007001s ]
+[ 2018-09-04T19:40:41+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000000s ]
+[ 2018-09-04T19:42:47+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-04T19:42:47+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-04T19:42:47+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-04T19:42:47+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-04T19:42:47+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-04T19:42:47+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ 2018-09-04T19:42:47+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-04T19:42:47+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-04T19:42:47+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-04T19:42:47+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ 2018-09-04T19:42:47+08:00 ][ info ] [ RUN ] app\api\controller\Index->index[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Index.php ]
+[ 2018-09-04T19:42:47+08:00 ][ error ] [0]not support: redis[C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\library\think\cache\driver\Redis.php:44]
+[ 2018-09-04T19:42:58+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-04T19:42:58+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-04T19:42:58+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004001s ]
+[ 2018-09-04T19:42:58+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005001s ]
+[ 2018-09-04T19:42:58+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-04T19:42:58+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ 2018-09-04T19:42:58+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-04T19:42:58+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-04T19:42:58+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-04T19:42:58+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ 2018-09-04T19:42:58+08:00 ][ info ] [ RUN ] app\api\controller\Index->index[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Index.php ]
+[ 2018-09-04T19:42:58+08:00 ][ error ] [0]not support: redis[C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\library\think\cache\driver\Redis.php:44]
+[ 2018-09-04T19:43:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-04T19:43:05+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-04T19:43:05+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-04T19:43:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ 2018-09-04T19:43:05+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-04T19:43:05+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'tool',
+    2 => 'message',
+  ),
+)
+[ 2018-09-04T19:43:05+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-04T19:43:05+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-04T19:43:05+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-04T19:43:05+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-04T19:43:30+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-04T19:43:30+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-04T19:43:30+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-04T19:43:30+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-04T19:43:30+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-04T19:43:30+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'tools',
+    2 => 'message',
+  ),
+)
+[ 2018-09-04T19:43:30+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-04T19:43:30+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-04T19:43:30+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-04T19:43:30+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003001s ]
+[ 2018-09-04T19:43:52+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-04T19:43:52+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-04T19:43:52+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-04T19:43:52+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-04T19:43:52+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-04T19:43:52+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'tools',
+    2 => 'message',
+  ),
+)
+[ 2018-09-04T19:43:52+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-04T19:43:52+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-04T19:43:52+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-04T19:43:52+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-04T19:43:52+08:00 ][ info ] [ TOKEN ] INIT Mysql
+[ 2018-09-04T19:43:52+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-09-04T19:43:52+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-09-04T19:43:52+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.009000s ]
+[ 2018-09-04T19:43:52+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.001001s ]
+[ 2018-09-04T19:44:46+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-04T19:44:46+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-04T19:44:46+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-04T19:44:46+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-04T19:44:46+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-04T19:44:46+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'redis',
+  ),
+)
+[ 2018-09-04T19:44:46+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-04T19:44:46+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-04T19:44:46+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-04T19:44:46+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-04T19:44:46+08:00 ][ info ] [ TOKEN ] INIT Mysql
+[ 2018-09-04T19:44:46+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-09-04T19:44:46+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-09-04T19:44:46+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.008000s ]
+[ 2018-09-04T19:44:46+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.001000s ]
+[ 2018-09-04T19:54:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-04T19:54:05+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-04T19:54:05+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003000s ]
+[ 2018-09-04T19:54:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ 2018-09-04T19:54:05+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-04T19:54:05+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ 2018-09-04T19:54:05+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-04T19:54:05+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-04T19:54:05+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/index\lang\zh-cn.php
+[ 2018-09-04T19:54:05+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ 2018-09-04T19:54:05+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ 2018-09-04T19:54:05+08:00 ][ info ] [ RUN ] app\index\controller\Index->index[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\index\controller\Index.php ]
+[ 2018-09-04T19:54:05+08:00 ][ info ] [ VIEW ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ 2018-09-04T19:54:23+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-04T19:54:23+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-04T19:54:23+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-04T19:54:23+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-04T19:54:23+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-04T19:54:23+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ 2018-09-04T19:54:23+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-04T19:54:23+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-04T19:54:23+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin\lang\zh-cn.php
+[ 2018-09-04T19:54:23+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-04T19:54:23+08:00 ][ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ 2018-09-04T19:54:24+08:00 ][ info ] [ VIEW ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/common\view\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ 2018-09-04T19:54:24+08:00 ][ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ 2018-09-04T19:54:47+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-04T19:54:47+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-04T19:54:47+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-04T19:54:47+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-04T19:54:47+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-04T19:54:47+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ 2018-09-04T19:54:47+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-04T19:54:47+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-04T19:54:47+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-04T19:54:47+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-04T19:54:47+08:00 ][ info ] [ RUN ] app\api\controller\Index->index[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Index.php ]
+[ 2018-09-04T19:54:47+08:00 ][ error ] [0]not support: redis[C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\library\think\cache\driver\Redis.php:44]
+[ 2018-09-04T19:55:45+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-04T19:55:45+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-04T19:55:45+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004001s ]
+[ 2018-09-04T19:55:45+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004001s ]
+[ 2018-09-04T19:55:45+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-04T19:55:45+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ 2018-09-04T19:55:45+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-04T19:55:45+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-04T19:55:45+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-04T19:55:45+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ 2018-09-04T19:55:45+08:00 ][ info ] [ RUN ] app\api\controller\Index->index[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Index.php ]
+[ 2018-09-04T19:55:45+08:00 ][ error ] [0]not support: redis[C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\library\think\cache\driver\Redis.php:44]
+[ 2018-09-04T19:55:54+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-04T19:55:54+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-04T19:55:54+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004001s ]
+[ 2018-09-04T19:55:54+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004001s ]
+[ 2018-09-04T19:55:54+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-04T19:55:54+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ 2018-09-04T19:55:54+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-04T19:55:54+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-04T19:55:54+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-04T19:55:54+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-04T19:55:54+08:00 ][ info ] [ RUN ] app\api\controller\Index->index[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Index.php ]
+[ 2018-09-04T19:55:54+08:00 ][ error ] [0]not support: redis[C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\library\think\cache\driver\Redis.php:44]
+[ 2018-09-04T19:55:57+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-04T19:55:57+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-04T19:55:57+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-04T19:55:57+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-04T19:55:57+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-04T19:55:57+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'tt',
+    2 => NULL,
+  ),
+)
+[ 2018-09-04T19:55:57+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-04T19:55:57+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-04T19:55:57+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-04T19:55:57+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003001s ]
+[ 2018-09-04T20:06:47+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-04T20:06:47+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-04T20:06:47+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004001s ]
+[ 2018-09-04T20:06:47+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005001s ]
+[ 2018-09-04T20:06:47+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-04T20:06:47+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ 2018-09-04T20:06:47+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-04T20:06:47+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-04T20:06:47+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin\lang\zh-cn.php
+[ 2018-09-04T20:06:47+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-04T20:06:47+08:00 ][ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ 2018-09-04T20:06:47+08:00 ][ info ] [ VIEW ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/common\view\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ 2018-09-04T20:06:47+08:00 ][ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ 2018-09-04T20:07:28+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-04T20:07:28+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-04T20:07:28+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003000s ]
+[ 2018-09-04T20:07:28+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ 2018-09-04T20:07:28+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-04T20:07:28+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'test',
+    2 => 'test',
+  ),
+)
+[ 2018-09-04T20:07:28+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-04T20:07:28+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-04T20:07:28+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin\lang\zh-cn.php
+[ 2018-09-04T20:07:28+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-04T20:07:28+08:00 ][ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ 2018-09-04T20:07:28+08:00 ][ info ] [ VIEW ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/common\view\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ 2018-09-04T20:07:28+08:00 ][ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ 2018-09-04T20:09:09+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-04T20:09:09+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-04T20:09:09+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-04T20:09:09+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-04T20:09:09+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-04T20:09:09+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'test',
+    2 => 'test',
+  ),
+)
+[ 2018-09-04T20:09:09+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-04T20:09:09+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-04T20:09:09+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin\lang\zh-cn.php
+[ 2018-09-04T20:09:09+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003001s ]
+[ 2018-09-04T20:09:09+08:00 ][ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ 2018-09-04T20:09:09+08:00 ][ info ] [ VIEW ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/common\view\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ 2018-09-04T20:09:09+08:00 ][ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]

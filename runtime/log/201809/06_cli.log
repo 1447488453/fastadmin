@@ -1,0 +1,1340 @@
+[ 2018-09-06T10:25:00+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T10:25:00+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T10:25:00+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005000s ]
+[ 2018-09-06T10:25:00+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-06T10:25:00+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T10:25:00+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'avtivemq',
+  ),
+)
+[ 2018-09-06T10:25:00+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T10:25:00+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T10:25:00+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T10:25:00+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-06T10:25:00+08:00 ][ info ] [ TOKEN ] INIT Mysql
+[ 2018-09-06T10:25:00+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-09-06T10:25:00+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-09-06T10:25:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.044002s ]
+[ 2018-09-06T10:25:01+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.001000s ]
+[ 2018-09-06T10:25:58+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T10:25:58+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T10:25:58+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004001s ]
+[ 2018-09-06T10:25:58+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005001s ]
+[ 2018-09-06T10:25:58+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T10:25:58+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'avtivemq',
+  ),
+)
+[ 2018-09-06T10:25:58+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T10:25:58+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T10:25:58+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T10:25:58+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-06T10:25:58+08:00 ][ info ] [ RUN ] app\api\controller\Test->avtivemq[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T10:25:58+08:00 ][ error ] [1]Class 'app\api\controller\Stomp' not found[C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php:431]
+[ 2018-09-06T10:30:44+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T10:30:44+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T10:30:44+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006000s ]
+[ 2018-09-06T10:30:44+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006000s ]
+[ 2018-09-06T10:30:44+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T10:30:44+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'avtivemq',
+  ),
+)
+[ 2018-09-06T10:30:44+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T10:30:44+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T10:30:44+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T10:30:44+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-06T10:30:44+08:00 ][ info ] [ RUN ] app\api\controller\Test->avtivemq[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T10:30:44+08:00 ][ error ] [1]Class 'app\api\controller\Stomp' not found[C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php:432]
+[ 2018-09-06T10:32:06+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T10:32:06+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T10:32:06+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005001s ]
+[ 2018-09-06T10:32:06+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006001s ]
+[ 2018-09-06T10:32:06+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T10:32:06+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'avtivemq',
+  ),
+)
+[ 2018-09-06T10:32:06+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T10:32:06+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T10:32:06+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T10:32:06+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-06T10:32:06+08:00 ][ info ] [ RUN ] app\api\controller\Test->avtivemq[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T10:32:06+08:00 ][ error ] [1]Class 'app\api\controller\Stomp' not found[C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php:432]
+[ 2018-09-06T10:36:27+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T10:36:27+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T10:36:27+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T10:36:27+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005001s ]
+[ 2018-09-06T10:36:27+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T10:36:27+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'avtivemq',
+  ),
+)
+[ 2018-09-06T10:36:27+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T10:36:27+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T10:36:27+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T10:36:27+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-06T10:36:27+08:00 ][ info ] [ RUN ] app\api\controller\Test->avtivemq[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T10:36:27+08:00 ][ error ] [1]Class 'app\api\controller\Stdclass' not found[C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php:433]
+[ 2018-09-06T10:36:42+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T10:36:42+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T10:36:42+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T10:36:42+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-06T10:36:42+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T10:36:42+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'avtivemq',
+  ),
+)
+[ 2018-09-06T10:36:42+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T10:36:42+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T10:36:42+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T10:36:42+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-06T10:36:42+08:00 ][ info ] [ RUN ] app\api\controller\Test->avtivemq[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T10:37:19+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T10:37:19+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T10:37:19+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T10:37:19+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-06T10:37:19+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T10:37:19+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'consumer',
+  ),
+)
+[ 2018-09-06T10:37:19+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T10:37:19+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T10:37:19+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T10:37:19+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-06T10:37:19+08:00 ][ info ] [ RUN ] app\api\controller\Test->consumer[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T10:38:55+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T10:38:55+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T10:38:55+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T10:38:55+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T10:38:55+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T10:38:55+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'avtivemq',
+  ),
+)
+[ 2018-09-06T10:38:55+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T10:38:55+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T10:38:55+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T10:38:55+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ 2018-09-06T10:38:55+08:00 ][ info ] [ RUN ] app\api\controller\Test->avtivemq[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T10:39:26+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T10:39:26+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T10:39:26+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T10:39:26+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-06T10:39:26+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T10:39:26+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'consumer',
+  ),
+)
+[ 2018-09-06T10:39:26+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T10:39:26+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T10:39:26+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T10:39:26+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ 2018-09-06T10:39:26+08:00 ][ info ] [ RUN ] app\api\controller\Test->consumer[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T10:43:51+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T10:43:51+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T10:43:51+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T10:43:51+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T10:43:51+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T10:43:51+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'avtivemq',
+  ),
+)
+[ 2018-09-06T10:43:51+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T10:43:51+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T10:43:51+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T10:43:51+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-06T10:43:51+08:00 ][ info ] [ RUN ] app\api\controller\Test->avtivemq[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T10:47:52+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T10:47:52+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T10:47:52+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T10:47:52+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T10:47:52+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T10:47:52+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'avtivemq',
+  ),
+)
+[ 2018-09-06T10:47:52+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T10:47:52+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T10:47:52+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T10:47:52+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ 2018-09-06T10:47:52+08:00 ][ info ] [ RUN ] app\api\controller\Test->avtivemq[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T10:48:31+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T10:48:31+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T10:48:32+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T10:48:32+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-06T10:48:32+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T10:48:32+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'avtivemq',
+  ),
+)
+[ 2018-09-06T10:48:32+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T10:48:32+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T10:48:32+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T10:48:32+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-06T10:48:32+08:00 ][ info ] [ RUN ] app\api\controller\Test->avtivemq[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T10:49:22+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T10:49:22+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T10:49:22+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003001s ]
+[ 2018-09-06T10:49:22+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004001s ]
+[ 2018-09-06T10:49:22+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T10:49:22+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'consumer',
+  ),
+)
+[ 2018-09-06T10:49:22+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T10:49:22+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T10:49:22+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T10:49:22+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-06T10:49:22+08:00 ][ info ] [ RUN ] app\api\controller\Test->consumer[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T10:49:37+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T10:49:37+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T10:49:37+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T10:49:37+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-06T10:49:37+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T10:49:37+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'consumer',
+  ),
+)
+[ 2018-09-06T10:49:37+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T10:49:37+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T10:49:37+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T10:49:37+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ 2018-09-06T10:49:37+08:00 ][ info ] [ RUN ] app\api\controller\Test->consumer[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T10:50:07+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T10:50:07+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T10:50:07+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T10:50:07+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-06T10:50:07+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T10:50:07+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'consumer',
+  ),
+)
+[ 2018-09-06T10:50:07+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T10:50:07+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T10:50:07+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T10:50:07+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002001s ]
+[ 2018-09-06T10:50:07+08:00 ][ info ] [ RUN ] app\api\controller\Test->consumer[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T10:52:01+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T10:52:01+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T10:52:01+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T10:52:01+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T10:52:01+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T10:52:01+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'avtivemq',
+  ),
+)
+[ 2018-09-06T10:52:01+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T10:52:01+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T10:52:01+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T10:52:01+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-06T10:52:01+08:00 ][ info ] [ RUN ] app\api\controller\Test->avtivemq[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T10:52:13+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T10:52:13+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T10:52:13+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T10:52:13+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-06T10:52:13+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T10:52:13+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'consumer',
+  ),
+)
+[ 2018-09-06T10:52:13+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T10:52:13+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T10:52:13+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T10:52:13+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ 2018-09-06T10:52:13+08:00 ][ info ] [ RUN ] app\api\controller\Test->consumer[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T10:52:36+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T10:52:36+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T10:52:36+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T10:52:36+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T10:52:36+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T10:52:36+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'consumer',
+  ),
+)
+[ 2018-09-06T10:52:36+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T10:52:36+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T10:52:36+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T10:52:36+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ 2018-09-06T10:52:36+08:00 ][ info ] [ RUN ] app\api\controller\Test->consumer[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T11:39:50+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T11:39:50+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T11:39:50+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003001s ]
+[ 2018-09-06T11:39:50+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004001s ]
+[ 2018-09-06T11:39:50+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T11:39:50+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'avtivemq',
+  ),
+)
+[ 2018-09-06T11:39:50+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T11:39:50+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T11:39:50+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T11:39:50+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-06T11:39:50+08:00 ][ info ] [ RUN ] app\api\controller\Test->avtivemq[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T11:41:11+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T11:41:11+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T11:41:11+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T11:41:11+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-06T11:41:11+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T11:41:11+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'avtivemq',
+  ),
+)
+[ 2018-09-06T11:41:11+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T11:41:11+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T11:41:11+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T11:41:11+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ 2018-09-06T11:41:11+08:00 ][ info ] [ RUN ] app\api\controller\Test->avtivemq[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T11:42:08+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T11:42:08+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T11:42:08+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T11:42:08+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-06T11:42:08+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T11:42:08+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'avtivemq',
+  ),
+)
+[ 2018-09-06T11:42:08+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T11:42:08+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T11:42:08+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T11:42:08+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-06T11:42:08+08:00 ][ info ] [ RUN ] app\api\controller\Test->avtivemq[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T14:31:15+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T14:31:15+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T14:31:15+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005000s ]
+[ 2018-09-06T14:31:15+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-06T14:31:15+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T14:31:15+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'avtivemq',
+  ),
+)
+[ 2018-09-06T14:31:15+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T14:31:15+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T14:31:15+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T14:31:15+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-06T14:31:15+08:00 ][ info ] [ RUN ] app\api\controller\Test->avtivemq[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T14:31:54+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T14:31:54+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T14:31:54+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T14:31:54+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-06T14:31:54+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T14:31:54+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'consumer',
+  ),
+)
+[ 2018-09-06T14:31:54+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T14:31:54+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T14:31:54+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T14:31:54+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ 2018-09-06T14:31:54+08:00 ][ info ] [ RUN ] app\api\controller\Test->consumer[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T14:35:01+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T14:35:01+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T14:35:01+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004001s ]
+[ 2018-09-06T14:35:01+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004001s ]
+[ 2018-09-06T14:35:01+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T14:35:01+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'avtivemq',
+  ),
+)
+[ 2018-09-06T14:35:01+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T14:35:01+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T14:35:01+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T14:35:01+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ 2018-09-06T14:35:01+08:00 ][ info ] [ RUN ] app\api\controller\Test->avtivemq[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T14:37:14+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T14:37:14+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T14:37:14+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T14:37:14+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T14:37:14+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T14:37:14+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'avtivemq',
+  ),
+)
+[ 2018-09-06T14:37:14+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T14:37:14+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T14:37:14+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T14:37:14+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ 2018-09-06T14:37:14+08:00 ][ info ] [ RUN ] app\api\controller\Test->avtivemq[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T14:37:33+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T14:37:33+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T14:37:33+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003000s ]
+[ 2018-09-06T14:37:33+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T14:37:33+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T14:37:33+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'consumer',
+  ),
+)
+[ 2018-09-06T14:37:33+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T14:37:33+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T14:37:33+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T14:37:33+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-06T14:37:33+08:00 ][ info ] [ RUN ] app\api\controller\Test->consumer[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T14:37:44+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T14:37:44+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T14:37:44+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T14:37:44+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-06T14:37:44+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T14:37:44+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'avtivemq',
+  ),
+)
+[ 2018-09-06T14:37:44+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T14:37:44+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T14:37:44+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T14:37:44+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ 2018-09-06T14:37:44+08:00 ][ info ] [ RUN ] app\api\controller\Test->avtivemq[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T14:40:27+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T14:40:27+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T14:40:27+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T14:40:27+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-06T14:40:27+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T14:40:27+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'avtivemq',
+  ),
+)
+[ 2018-09-06T14:40:27+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T14:40:27+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T14:40:27+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T14:40:27+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ 2018-09-06T14:40:27+08:00 ][ info ] [ RUN ] app\api\controller\Test->avtivemq[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T14:41:58+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001001s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T14:41:58+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T14:41:58+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003000s ]
+[ 2018-09-06T14:41:58+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T14:41:58+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T14:41:58+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'consumer',
+  ),
+)
+[ 2018-09-06T14:41:58+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T14:41:58+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T14:41:58+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T14:41:58+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-06T14:41:58+08:00 ][ info ] [ RUN ] app\api\controller\Test->consumer[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T14:42:01+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T14:42:01+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T14:42:01+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T14:42:01+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T14:42:01+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T14:42:01+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'avtivemq',
+  ),
+)
+[ 2018-09-06T14:42:01+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T14:42:01+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T14:42:01+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T14:42:01+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-06T14:42:01+08:00 ][ info ] [ RUN ] app\api\controller\Test->avtivemq[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T14:42:01+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-09-06T14:42:01+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2018-09-06T14:42:01+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_message` [ RunTime:0.008000s ]
+[ 2018-09-06T14:42:01+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_message` (`message`) VALUES ('hello word') [ RunTime:0.000000s ]
+[ 2018-09-06T14:42:02+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_message` (`message`) VALUES ('hello word') [ RunTime:0.001000s ]
+[ 2018-09-06T14:42:03+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_message` (`message`) VALUES ('hello word') [ RunTime:0.001000s ]
+[ 2018-09-06T14:46:42+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T14:46:42+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T14:46:42+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T14:46:42+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-06T14:46:42+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T14:46:42+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'avtivemq',
+  ),
+)
+[ 2018-09-06T14:46:42+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T14:46:42+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T14:46:42+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T14:46:42+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-06T14:46:42+08:00 ][ info ] [ RUN ] app\api\controller\Test->avtivemq[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T14:46:42+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_message` (`message`) VALUES ('hello word') [ RunTime:0.000000s ]
+[ 2018-09-06T14:48:18+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T14:48:18+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T14:48:18+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T14:48:18+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-06T14:48:18+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T14:48:18+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'avtivemq',
+  ),
+)
+[ 2018-09-06T14:48:18+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T14:48:18+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T14:48:18+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T14:48:18+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-06T14:48:18+08:00 ][ info ] [ RUN ] app\api\controller\Test->avtivemq[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T15:01:51+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T15:01:51+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T15:01:51+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004001s ]
+[ 2018-09-06T15:01:51+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004001s ]
+[ 2018-09-06T15:01:51+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T15:01:51+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'pub',
+  ),
+)
+[ 2018-09-06T15:01:51+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T15:01:51+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T15:01:51+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T15:01:51+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-06T15:01:51+08:00 ][ info ] [ RUN ] app\api\controller\Test->pub[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T15:01:51+08:00 ][ error ] [1]Call to undefined method Stomp::connect()[C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php:470]
+[ 2018-09-06T15:02:17+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T15:02:17+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T15:02:17+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T15:02:17+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-06T15:02:17+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T15:02:17+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'pub',
+  ),
+)
+[ 2018-09-06T15:02:17+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T15:02:17+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T15:02:17+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T15:02:17+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ 2018-09-06T15:02:17+08:00 ][ info ] [ RUN ] app\api\controller\Test->pub[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T15:02:17+08:00 ][ error ] [2]Creating default object from empty value[C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php:471]
+[ 2018-09-06T15:02:46+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T15:02:46+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T15:02:46+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.003000s ]
+[ 2018-09-06T15:02:46+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T15:02:46+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T15:02:46+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'pub',
+  ),
+)
+[ 2018-09-06T15:02:46+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T15:02:46+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T15:02:46+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T15:02:46+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-06T15:02:46+08:00 ][ info ] [ RUN ] app\api\controller\Test->pub[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T15:03:20+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T15:03:20+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T15:03:20+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004001s ]
+[ 2018-09-06T15:03:20+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005001s ]
+[ 2018-09-06T15:03:20+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T15:03:20+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'pub',
+  ),
+)
+[ 2018-09-06T15:03:20+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T15:03:20+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T15:03:20+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T15:03:20+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-06T15:03:20+08:00 ][ info ] [ RUN ] app\api\controller\Test->pub[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T15:03:52+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T15:03:52+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T15:03:52+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T15:03:52+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-06T15:03:52+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T15:03:52+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'sub',
+  ),
+)
+[ 2018-09-06T15:03:52+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T15:03:52+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T15:03:52+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T15:03:52+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-06T15:03:52+08:00 ][ info ] [ RUN ] app\api\controller\Test->sub[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T15:03:55+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T15:03:55+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T15:03:55+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T15:03:55+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T15:03:55+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T15:03:55+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'pub',
+  ),
+)
+[ 2018-09-06T15:03:55+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T15:03:55+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T15:03:55+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T15:03:55+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003001s ]
+[ 2018-09-06T15:03:55+08:00 ][ info ] [ RUN ] app\api\controller\Test->pub[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T15:04:23+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T15:04:23+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T15:04:23+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T15:04:23+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-06T15:04:23+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T15:04:23+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'sub',
+  ),
+)
+[ 2018-09-06T15:04:23+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T15:04:23+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T15:04:23+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T15:04:23+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ 2018-09-06T15:04:23+08:00 ][ info ] [ RUN ] app\api\controller\Test->sub[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T15:04:27+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T15:04:27+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T15:04:27+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T15:04:27+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-06T15:04:27+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T15:04:27+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'pub',
+  ),
+)
+[ 2018-09-06T15:04:27+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T15:04:27+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T15:04:27+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T15:04:27+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ 2018-09-06T15:04:27+08:00 ][ info ] [ RUN ] app\api\controller\Test->pub[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T15:17:55+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T15:17:55+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T15:17:55+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004001s ]
+[ 2018-09-06T15:17:55+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004001s ]
+[ 2018-09-06T15:17:55+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T15:17:55+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'pub',
+  ),
+)
+[ 2018-09-06T15:17:55+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T15:17:55+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T15:17:55+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T15:17:55+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-06T15:17:55+08:00 ][ info ] [ RUN ] app\api\controller\Test->pub[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T15:26:06+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T15:26:06+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T15:26:06+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T15:26:07+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-06T15:26:07+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T15:26:07+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'pub',
+  ),
+)
+[ 2018-09-06T15:26:07+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T15:26:07+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T15:26:07+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T15:26:07+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ 2018-09-06T15:26:07+08:00 ][ error ] [4]syntax error, unexpected ','[C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php:473]
+[ 2018-09-06T15:26:16+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T15:26:16+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T15:26:16+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T15:26:16+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-06T15:26:16+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T15:26:16+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'pub',
+  ),
+)
+[ 2018-09-06T15:26:16+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T15:26:16+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T15:26:16+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T15:26:16+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002001s ]
+[ 2018-09-06T15:26:16+08:00 ][ info ] [ RUN ] app\api\controller\Test->pub[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T15:26:16+08:00 ][ error ] [4096]Argument 3 passed to Stomp::send() must be of the type array, string given[C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php:473]
+[ 2018-09-06T15:28:14+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T15:28:14+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T15:28:14+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004001s ]
+[ 2018-09-06T15:28:14+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004001s ]
+[ 2018-09-06T15:28:14+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T15:28:14+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'pub',
+  ),
+)
+[ 2018-09-06T15:28:14+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T15:28:14+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T15:28:14+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T15:28:14+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ 2018-09-06T15:28:14+08:00 ][ info ] [ RUN ] app\api\controller\Test->pub[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T15:28:20+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T15:28:20+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T15:28:20+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T15:28:20+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-06T15:28:20+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T15:28:20+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'sub',
+  ),
+)
+[ 2018-09-06T15:28:20+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T15:28:20+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T15:28:20+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T15:28:20+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003001s ]
+[ 2018-09-06T15:28:20+08:00 ][ info ] [ RUN ] app\api\controller\Test->sub[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T15:28:26+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T15:28:26+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T15:28:26+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004001s ]
+[ 2018-09-06T15:28:26+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005001s ]
+[ 2018-09-06T15:28:26+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T15:28:26+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'pub',
+  ),
+)
+[ 2018-09-06T15:28:26+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T15:28:26+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T15:28:26+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T15:28:26+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ 2018-09-06T15:28:26+08:00 ][ info ] [ RUN ] app\api\controller\Test->pub[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T15:28:33+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T15:28:33+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T15:28:33+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T15:28:33+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-06T15:28:33+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T15:28:33+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'pub',
+  ),
+)
+[ 2018-09-06T15:28:33+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T15:28:33+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T15:28:33+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T15:28:33+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002001s ]
+[ 2018-09-06T15:28:33+08:00 ][ info ] [ RUN ] app\api\controller\Test->pub[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T15:28:37+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T15:28:37+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T15:28:37+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004001s ]
+[ 2018-09-06T15:28:37+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005001s ]
+[ 2018-09-06T15:28:37+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T15:28:37+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'sub',
+  ),
+)
+[ 2018-09-06T15:28:37+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T15:28:37+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T15:28:37+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T15:28:37+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-06T15:28:37+08:00 ][ info ] [ RUN ] app\api\controller\Test->sub[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T15:28:43+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T15:28:43+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T15:28:43+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T15:28:43+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-06T15:28:43+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T15:28:43+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'pub',
+  ),
+)
+[ 2018-09-06T15:28:43+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T15:28:43+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T15:28:43+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T15:28:43+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-06T15:28:43+08:00 ][ info ] [ RUN ] app\api\controller\Test->pub[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T15:30:22+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T15:30:22+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T15:30:22+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T15:30:22+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T15:30:22+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T15:30:22+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'sub',
+  ),
+)
+[ 2018-09-06T15:30:22+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T15:30:22+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T15:30:22+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T15:30:22+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002001s ]
+[ 2018-09-06T15:30:22+08:00 ][ info ] [ RUN ] app\api\controller\Test->sub[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T15:30:22+08:00 ][ error ] [4096]Argument 2 passed to Stomp::subscribe() must be of the type array, string given[C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php:480]
+[ 2018-09-06T16:12:12+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T16:12:12+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T16:12:12+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T16:12:12+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T16:12:12+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T16:12:12+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'sub',
+  ),
+)
+[ 2018-09-06T16:12:12+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T16:12:12+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T16:12:12+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T16:12:12+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-06T16:12:12+08:00 ][ info ] [ RUN ] app\api\controller\Test->sub[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T16:12:21+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T16:12:21+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T16:12:21+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004001s ]
+[ 2018-09-06T16:12:21+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004001s ]
+[ 2018-09-06T16:12:21+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T16:12:21+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'sub',
+  ),
+)
+[ 2018-09-06T16:12:21+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T16:12:21+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T16:12:21+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T16:12:21+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-06T16:12:21+08:00 ][ info ] [ RUN ] app\api\controller\Test->sub[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T16:12:28+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T16:12:28+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T16:12:28+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T16:12:28+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T16:12:28+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T16:12:28+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'pub',
+  ),
+)
+[ 2018-09-06T16:12:28+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T16:12:28+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T16:12:28+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T16:12:28+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003001s ]
+[ 2018-09-06T16:12:28+08:00 ][ info ] [ RUN ] app\api\controller\Test->pub[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T16:50:35+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T16:50:35+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T16:50:35+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T16:50:35+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-06T16:50:35+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T16:50:35+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'pub',
+  ),
+)
+[ 2018-09-06T16:50:35+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T16:50:35+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T16:50:35+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T16:50:35+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ 2018-09-06T16:50:35+08:00 ][ info ] [ RUN ] app\api\controller\Test->pub[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T16:53:49+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T16:53:49+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T16:53:49+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T16:53:49+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T16:53:49+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T16:53:49+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'sub',
+  ),
+)
+[ 2018-09-06T16:53:49+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T16:53:49+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T16:53:49+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T16:53:49+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003001s ]
+[ 2018-09-06T16:53:49+08:00 ][ info ] [ RUN ] app\api\controller\Test->sub[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T16:54:00+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T16:54:00+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T16:54:00+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004001s ]
+[ 2018-09-06T16:54:00+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004001s ]
+[ 2018-09-06T16:54:00+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T16:54:00+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'sub',
+  ),
+)
+[ 2018-09-06T16:54:00+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T16:54:00+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T16:54:00+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T16:54:00+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ 2018-09-06T16:54:00+08:00 ][ info ] [ RUN ] app\api\controller\Test->sub[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T17:24:49+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T17:24:49+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T17:24:49+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004001s ]
+[ 2018-09-06T17:24:49+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004001s ]
+[ 2018-09-06T17:24:49+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T17:24:49+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'sub',
+  ),
+)
+[ 2018-09-06T17:24:49+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T17:24:49+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T17:24:49+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T17:24:49+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ 2018-09-06T17:24:49+08:00 ][ info ] [ RUN ] app\api\controller\Test->sub[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T17:24:49+08:00 ][ error ] [4096]Argument 2 passed to Stomp::subscribe() must be of the type array, string given[C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php:465]
+[ 2018-09-06T17:26:02+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T17:26:02+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T17:26:02+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T17:26:02+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-06T17:26:02+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T17:26:02+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'sub',
+  ),
+)
+[ 2018-09-06T17:26:02+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T17:26:02+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T17:26:02+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T17:26:02+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ 2018-09-06T17:26:02+08:00 ][ info ] [ RUN ] app\api\controller\Test->sub[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T17:26:06+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T17:26:06+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T17:26:06+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ 2018-09-06T17:26:06+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ 2018-09-06T17:26:06+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T17:26:06+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'sub',
+  ),
+)
+[ 2018-09-06T17:26:06+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T17:26:06+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T17:26:06+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T17:26:06+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ 2018-09-06T17:26:06+08:00 ][ info ] [ RUN ] app\api\controller\Test->sub[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]
+[ 2018-09-06T17:26:26+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-09-06T17:26:26+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-09-06T17:26:26+08:00 ][ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004001s ]
+[ 2018-09-06T17:26:26+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004001s ]
+[ 2018-09-06T17:26:26+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ 2018-09-06T17:26:26+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'sub',
+  ),
+)
+[ 2018-09-06T17:26:26+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-06T17:26:26+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-06T17:26:26+08:00 ][ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ 2018-09-06T17:26:26+08:00 ][ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ 2018-09-06T17:26:26+08:00 ][ info ] [ RUN ] app\api\controller\Test->sub[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test.php ]

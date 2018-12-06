@@ -1,0 +1,55 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="../../audit_status/ids/{$row.id}">
+
+    <div class="form-group">
+        <label for="c-username" class="control-label col-xs-12 col-sm-2">{:__('真实姓名')}:</label>
+        <div class="col-xs-12 col-sm-4">
+            <input readonly="readonly" id="c-username" data-rule="required" class="form-control" name="row[real_name]" type="text" value="{$row.real_name}">
+        </div>
+    </div>
+
+       <div class="form-group">
+        <label for="c-username" class="control-label col-xs-12 col-sm-2">{:__('身份证号码')}:</label>
+        <div class="col-xs-12 col-sm-4">
+            <input readonly="readonly" id="c-username" data-rule="required" class="form-control" name="row[id_card]" type="text" value="{$row.id_card}">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="c-avatar" class="control-label col-xs-12 col-sm-2">{:__('身份证正面照')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="input-group">
+               <img  name="row[sfz_front_img]" src="{$row.sfz_front_img}">
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="c-avatar" class="control-label col-xs-12 col-sm-2">{:__('身份证背面照')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="input-group">
+               <img name="row[sfz_back_img]" src="{$row.sfz_back_img}">
+            </div>
+        </div>
+    </div>
+
+   <div class="form-group">
+        <label for="c-username" class="control-label col-xs-12 col-sm-2">{:__('备注')}:</label>
+        <div class="col-xs-12 col-sm-4">
+           <textarea  id="c-username" data-rule="required" class="form-control" name="row[remark]" value="">{$row.remark}</textarea>
+        </div>
+    </div>
+   
+    <div class="form-group">
+        <label for="content" class="control-label col-xs-12 col-sm-2">{:__('Status')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            {:build_radios('row[status]', [1=>__('通过'), 2=>__('驳回')], $row['status'])}
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed ">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

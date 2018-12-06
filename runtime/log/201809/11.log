@@ -1,0 +1,2358 @@
+---------------------------------------------------------------
+[ 2018-09-11T09:14:40+08:00 ] 127.0.0.1 GET /admin
+[ info ] 127.0.0.4/admin [运行时间：2.648152s][吞吐率：0.38req/s] [内存消耗：2,060.27kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.099006s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.114006s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.114006s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=3; token=6a2cf3cd-9846-42c5-a186-9419ce4e97d6; keeplogin=1%7C86400%7C1536370518%7Cb494e0c44e08337d857dca4010a03314; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1535592845,1535942613,1536114055,1536383872',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.048002s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/common\view\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.023001s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T09:14:43+08:00 ] 127.0.0.1 GET /admin/index/login?url=%2Fadmin
+[ info ] 127.0.0.4/admin/index/login?url=%2Fadmin [运行时间：0.341020s][吞吐率：2.93req/s] [内存消耗：2,361.17kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.011001s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011001s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=3; token=6a2cf3cd-9846-42c5-a186-9419ce4e97d6; keeplogin=1%7C86400%7C1536370518%7Cb494e0c44e08337d857dca4010a03314; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1535592845,1535942613,1536114055,1536383872; PHPSESSID=b9e7gf99i1vnntmsmos2lce8a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.4/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/admin',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006001s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T09:14:44+08:00 ] 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=index&v=1536628482
+[ info ] 127.0.0.4/admin/ajax/lang?callback=define&controllername=index&v=1536628482 [运行时间：0.129008s][吞吐率：7.75req/s] [内存消耗：2,361.92kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004001s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004001s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=3; token=6a2cf3cd-9846-42c5-a186-9419ce4e97d6; keeplogin=1%7C86400%7C1536370518%7Cb494e0c44e08337d857dca4010a03314; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1535592845,1535942613,1536114055,1536383872; PHPSESSID=b9e7gf99i1vnntmsmos2lce8a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.4/admin/index/login?url=%2Fadmin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1536628482',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T09:14:48+08:00 ] 127.0.0.1 POST /admin/index/login?url=%2Fadmin
+[ info ] 127.0.0.4/admin/index/login?url=%2Fadmin [运行时间：0.767044s][吞吐率：1.30req/s] [内存消耗：3,056.45kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.007000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=3; token=6a2cf3cd-9846-42c5-a186-9419ce4e97d6; keeplogin=1%7C86400%7C1536370518%7Cb494e0c44e08337d857dca4010a03314; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1535592845,1535942613,1536114055,1536383872; PHPSESSID=b9e7gf99i1vnntmsmos2lce8a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.4/admin/index/login?url=%2Fadmin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.4',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '75',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/admin',
+  '__token__' => 'b171fc525b7dd151e1006f7fbfa4eb5c',
+  'username' => 'admin',
+  'password' => 'admin123',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.124007s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.078004s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.059004s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `fa_admin`  SET `logintime`=1536628488,`token`='bdacca0d-9888-4110-9793-02533ae213b7',`updatetime`=1536628488  WHERE  `id` = 1 [ RunTime:0.054004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.038002s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin\",\"__token__\":\"b171fc525b7dd151e1006f7fbfa4eb5c\",\"username\":\"admin\"}' , '/admin/index/login?url=%2Fadmin' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36' , '127.0.0.1' , 1536628488) [ RunTime:0.083005s ]
+---------------------------------------------------------------
+[ 2018-09-11T09:14:50+08:00 ] 127.0.0.1 GET /admin
+[ info ] 127.0.0.4/admin [运行时间：1.540088s][吞吐率：0.65req/s] [内存消耗：3,364.85kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=3; token=6a2cf3cd-9846-42c5-a186-9419ce4e97d6; keeplogin=1%7C86400%7C1536370518%7Cb494e0c44e08337d857dca4010a03314; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1535592845,1535942613,1536114055,1536383872; PHPSESSID=b9e7gf99i1vnntmsmos2lce8a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.4/admin/index/login?url=%2Fadmin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001001s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.070004s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-09-11T09:14:51+08:00 ] 127.0.0.1 GET /admin/dashboard?addtabs=1
+[ info ] 127.0.0.4/admin/dashboard?addtabs=1 [运行时间：0.499029s][吞吐率：2.00req/s] [内存消耗：3,157.14kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005001s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005001s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=3; token=6a2cf3cd-9846-42c5-a186-9419ce4e97d6; keeplogin=1%7C86400%7C1536370518%7Cb494e0c44e08337d857dca4010a03314; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1535592845,1535942613,1536114055,1536383872; PHPSESSID=b9e7gf99i1vnntmsmos2lce8a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.4/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.002000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-09-11T09:14:51+08:00 ] 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=dashboard&v=1536628490
+[ info ] 127.0.0.4/admin/ajax/lang?callback=define&controllername=dashboard&v=1536628490 [运行时间：0.060003s][吞吐率：16.67req/s] [内存消耗：2,361.84kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004001s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004001s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=3; token=6a2cf3cd-9846-42c5-a186-9419ce4e97d6; keeplogin=1%7C86400%7C1536370518%7Cb494e0c44e08337d857dca4010a03314; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1535592845,1535942613,1536114055,1536383872; PHPSESSID=b9e7gf99i1vnntmsmos2lce8a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.4/admin/dashboard?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1536628490',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T09:14:52+08:00 ] 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=index&v=1536628489
+[ info ] 127.0.0.4/admin/ajax/lang?callback=define&controllername=index&v=1536628489 [运行时间：0.087005s][吞吐率：11.49req/s] [内存消耗：2,363.15kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=3; token=6a2cf3cd-9846-42c5-a186-9419ce4e97d6; keeplogin=1%7C86400%7C1536370518%7Cb494e0c44e08337d857dca4010a03314; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1535592845,1535942613,1536114055,1536383872; PHPSESSID=b9e7gf99i1vnntmsmos2lce8a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.4/admin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1536628489',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T18:55:08+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.193011s][吞吐率：5.18req/s] [内存消耗：1,770.80kb] [文件加载：64]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------d3c1dfe7c0e90dbd',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004001s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T18:56:03+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.059003s][吞吐率：16.95req/s] [内存消耗：1,770.67kb] [文件加载：64]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------8918f48d2c8effb2',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003001s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T18:56:34+08:00 ] 127.0.0.1 GET /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.070004s][吞吐率：14.28req/s] [内存消耗：1,772.20kb] [文件加载：64]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.008001s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008001s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=3; token=6a2cf3cd-9846-42c5-a186-9419ce4e97d6; keeplogin=1%7C86400%7C1536370518%7Cb494e0c44e08337d857dca4010a03314; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1535592845,1535942613,1536114055,1536383872; PHPSESSID=b9e7gf99i1vnntmsmos2lce8a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T18:56:35+08:00 ] 127.0.0.1 GET /favicon.ico
+[ info ] 127.0.0.4/favicon.ico [运行时间：0.101005s][吞吐率：9.90req/s] [内存消耗：1,562.90kb] [文件加载：55]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=3; token=6a2cf3cd-9846-42c5-a186-9419ce4e97d6; keeplogin=1%7C86400%7C1536370518%7Cb494e0c44e08337d857dca4010a03314; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1535592845,1535942613,1536114055,1536383872; PHPSESSID=b9e7gf99i1vnntmsmos2lce8a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.4/api/test2/test',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T18:57:17+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.342020s][吞吐率：2.92req/s] [内存消耗：2,464.96kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------df7c2acf0c102832',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.195011s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-09-11T18:57:22+08:00 ] 127.0.0.1 GET /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.120006s][吞吐率：8.33req/s] [内存消耗：2,768.07kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005001s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005001s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=3; token=6a2cf3cd-9846-42c5-a186-9419ce4e97d6; keeplogin=1%7C86400%7C1536370518%7Cb494e0c44e08337d857dca4010a03314; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1535592845,1535942613,1536114055,1536383872; PHPSESSID=b9e7gf99i1vnntmsmos2lce8a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '62ac06097fabd03924986d02803a918addc3da42' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-09-11T18:57:58+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：2,027.77kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------01326efabfe59922',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T18:58:00+08:00 ] 127.0.0.1 GET /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.118007s][吞吐率：8.47req/s] [内存消耗：2,124.55kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005001s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005001s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=3; token=6a2cf3cd-9846-42c5-a186-9419ce4e97d6; keeplogin=1%7C86400%7C1536370518%7Cb494e0c44e08337d857dca4010a03314; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1535592845,1535942613,1536114055,1536383872; PHPSESSID=b9e7gf99i1vnntmsmos2lce8a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: user_id[C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php:11]
+---------------------------------------------------------------
+[ 2018-09-11T18:58:50+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：2,027.91kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------37460639b8af7c6d',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003001s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T18:59:05+08:00 ] 127.0.0.1 GET /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.060004s][吞吐率：16.67req/s] [内存消耗：2,029.53kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=3; token=6a2cf3cd-9846-42c5-a186-9419ce4e97d6; keeplogin=1%7C86400%7C1536370518%7Cb494e0c44e08337d857dca4010a03314; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1535592845,1535942613,1536114055,1536383872; PHPSESSID=b9e7gf99i1vnntmsmos2lce8a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T18:59:37+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.078004s][吞吐率：12.82req/s] [内存消耗：2,707.63kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------1f852253606ce623',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003001s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [4096]Argument 1 passed to think\db\Query::update() must be of the type array, string given, called in C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php on line 15 and defined[C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\library\think\db\Query.php:2335]
+---------------------------------------------------------------
+[ 2018-09-11T18:59:47+08:00 ] 127.0.0.1 GET /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.080005s][吞吐率：12.50req/s] [内存消耗：2,709.14kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=3; token=6a2cf3cd-9846-42c5-a186-9419ce4e97d6; keeplogin=1%7C86400%7C1536370518%7Cb494e0c44e08337d857dca4010a03314; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1535592845,1535942613,1536114055,1536383872; PHPSESSID=b9e7gf99i1vnntmsmos2lce8a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [4096]Argument 1 passed to think\db\Query::update() must be of the type array, string given, called in C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php on line 15 and defined[C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\library\think\db\Query.php:2335]
+---------------------------------------------------------------
+[ 2018-09-11T19:00:29+08:00 ] 127.0.0.1 GET /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.167010s][吞吐率：5.99req/s] [内存消耗：2,694.58kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=3; token=6a2cf3cd-9846-42c5-a186-9419ce4e97d6; keeplogin=1%7C86400%7C1536370518%7Cb494e0c44e08337d857dca4010a03314; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1535592845,1535942613,1536114055,1536383872; PHPSESSID=b9e7gf99i1vnntmsmos2lce8a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003001s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] UPDATE `fa_user`  SET `user_money`=50  WHERE  `id` = 8 [ RunTime:0.065003s ]
+---------------------------------------------------------------
+[ 2018-09-11T19:00:48+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.148009s][吞吐率：6.76req/s] [内存消耗：2,693.24kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------067d867c10c8c745',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.014001s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] UPDATE `fa_user`  SET `user_money`=50  WHERE  `id` = 8 [ RunTime:0.043002s ]
+---------------------------------------------------------------
+[ 2018-09-11T20:10:26+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.108006s][吞吐率：9.26req/s] [内存消耗：2,465.12kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------a9b42991e6f3da0c',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004000s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-11T20:10:36+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.093006s][吞吐率：10.75req/s] [内存消耗：2,465.10kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.007000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------7945c2122938cafc',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004000s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-11T20:10:40+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.099006s][吞吐率：10.10req/s] [内存消耗：2,465.09kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.007000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------e3af55fd2662ccf3',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-11T20:11:22+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.096005s][吞吐率：10.42req/s] [内存消耗：2,465.09kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------2ff5763d83bc1d6d',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004000s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-11T20:11:23+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.094005s][吞吐率：10.64req/s] [内存消耗：2,465.09kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.007001s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007001s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------2bdae782cdc7ae85',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-09-11T20:11:24+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.109006s][吞吐率：9.17req/s] [内存消耗：2,465.09kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.009001s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009001s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------967b3f33f1fd5719',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005000s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-09-11T20:11:32+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.115006s][吞吐率：8.70req/s] [内存消耗：2,465.25kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.008000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------1570556d5ee9ad36',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004000s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-09-11T20:11:34+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.105006s][吞吐率：9.52req/s] [内存消耗：2,465.25kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------27ad9407bc55b96c',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004000s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-09-11T20:11:35+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.097005s][吞吐率：10.31req/s] [内存消耗：2,465.25kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.007000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------b13dd97dc0013e19',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-09-11T20:11:35+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.094005s][吞吐率：10.64req/s] [内存消耗：2,465.25kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------4ec379d0be076795',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-09-11T20:12:17+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.088005s][吞吐率：11.36req/s] [内存消耗：2,465.09kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005001s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005001s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------a6cf77385ec29ce9',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-09-11T20:12:18+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.077004s][吞吐率：12.99req/s] [内存消耗：2,465.09kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------982a5acee7d7ba63',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002001s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-09-11T20:12:27+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.093005s][吞吐率：10.75req/s] [内存消耗：2,465.09kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006001s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006001s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------542340ad3c9dd251',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-09-11T20:12:58+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.062003s][吞吐率：16.13req/s] [内存消耗：2,027.87kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------70eba9b9a04aa4c3',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T20:13:02+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.057003s][吞吐率：17.54req/s] [内存消耗：2,027.87kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------07326ddfd348aef4',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003001s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T20:13:10+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.054004s][吞吐率：18.52req/s] [内存消耗：2,027.87kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005001s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005001s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------4b4ef7ad8ceea7dc',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T20:13:22+08:00 ] 127.0.0.1 GET /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.109006s][吞吐率：9.17req/s] [内存消耗：2,029.20kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.016001s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.016001s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=3; token=6a2cf3cd-9846-42c5-a186-9419ce4e97d6; keeplogin=1%7C86400%7C1536370518%7Cb494e0c44e08337d857dca4010a03314; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1535592845,1535942613,1536114055,1536383872; PHPSESSID=b9e7gf99i1vnntmsmos2lce8a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.008001s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T20:13:30+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.057003s][吞吐率：17.54req/s] [内存消耗：2,027.87kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------54121042e29245c2',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T20:13:45+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.057003s][吞吐率：17.54req/s] [内存消耗：2,027.87kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------b9980aacc548a799',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T20:13:46+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.060003s][吞吐率：16.67req/s] [内存消耗：2,027.87kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------8fc8162615d4221c',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003001s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T20:13:47+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.056004s][吞吐率：17.86req/s] [内存消耗：2,027.87kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005001s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005001s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------64af71f2dce036f3',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T20:13:47+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.060003s][吞吐率：16.67req/s] [内存消耗：2,027.87kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.007000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------8ff627e5cc57b0cf',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T20:13:47+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：2,027.87kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------93a28122702fd98e',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T20:14:07+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.070004s][吞吐率：14.28req/s] [内存消耗：2,080.52kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.007000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------3103fb83dcf7831f',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004000s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T20:14:08+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.061003s][吞吐率：16.39req/s] [内存消耗：2,080.52kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.007001s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007001s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------55201c0497fae528',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T20:14:09+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.058004s][吞吐率：17.24req/s] [内存消耗：2,080.52kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005001s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005001s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------4b76c51fab27bd57',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T20:14:35+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.051002s][吞吐率：19.61req/s] [内存消耗：2,027.87kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005001s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005001s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------5b692cb8644158c6',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T20:15:43+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：2,027.87kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------b12dc6acfd5ee7ae',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T20:15:44+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.058003s][吞吐率：17.24req/s] [内存消耗：2,027.87kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------a66539f8fa5c1d2d',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T20:15:45+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：2,027.87kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------e5d32231c2a2ee9c',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T20:16:13+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.066004s][吞吐率：15.15req/s] [内存消耗：2,027.87kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------836da4f2babfc241',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T20:16:38+08:00 ] 127.0.0.1 GET /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.067004s][吞吐率：14.92req/s] [内存消耗：2,029.49kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=3; token=6a2cf3cd-9846-42c5-a186-9419ce4e97d6; keeplogin=1%7C86400%7C1536370518%7Cb494e0c44e08337d857dca4010a03314; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1535592845,1535942613,1536114055,1536383872; PHPSESSID=b9e7gf99i1vnntmsmos2lce8a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002001s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T20:16:38+08:00 ] 127.0.0.1 GET /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.058004s][吞吐率：17.24req/s] [内存消耗：2,029.49kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005001s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005001s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=3; token=6a2cf3cd-9846-42c5-a186-9419ce4e97d6; keeplogin=1%7C86400%7C1536370518%7Cb494e0c44e08337d857dca4010a03314; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1535592845,1535942613,1536114055,1536383872; PHPSESSID=b9e7gf99i1vnntmsmos2lce8a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T20:16:38+08:00 ] 127.0.0.1 GET /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.062004s][吞吐率：16.13req/s] [内存消耗：2,029.49kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005001s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005001s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=3; token=6a2cf3cd-9846-42c5-a186-9419ce4e97d6; keeplogin=1%7C86400%7C1536370518%7Cb494e0c44e08337d857dca4010a03314; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1535592845,1535942613,1536114055,1536383872; PHPSESSID=b9e7gf99i1vnntmsmos2lce8a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T20:16:39+08:00 ] 127.0.0.1 GET /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.061003s][吞吐率：16.39req/s] [内存消耗：2,029.49kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=3; token=6a2cf3cd-9846-42c5-a186-9419ce4e97d6; keeplogin=1%7C86400%7C1536370518%7Cb494e0c44e08337d857dca4010a03314; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1535592845,1535942613,1536114055,1536383872; PHPSESSID=b9e7gf99i1vnntmsmos2lce8a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002001s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T20:16:54+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：2,027.87kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------7a7c004b03bf66b2',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T20:20:32+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.053004s][吞吐率：18.87req/s] [内存消耗：2,028.11kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005001s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005001s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------a1af2ecad021617d',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T20:20:33+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：2,027.87kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------4c5388db658f8d5c',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T20:20:45+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：2,027.87kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------42b012e763a390c7',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T20:20:48+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：2,027.87kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.004000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------d3b6a998671769b4',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T20:20:51+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.051002s][吞吐率：19.61req/s] [内存消耗：2,027.87kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.005000s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------a43cea0aaa684501',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004000s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-11T20:21:26+08:00 ] 127.0.0.1 POST /api/test2/test
+[ info ] 127.0.0.4/api/test2/test [运行时间：0.162010s][吞吐率：6.17req/s] [内存消耗：2,693.16kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @app_init [ RunTime:0.006001s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006001s ]
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test2',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-type' => 'multipart/form-data; boundary=------------------------c1e8bc88e1f374c1',
+  'expect' => '100-continue',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'host' => '127.0.0.4',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '8',
+  'money' => '50',
+)
+[ info ] [ LANG ] C:\phpstudy\PHPTutorial\WWW\fastadmin\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ RUN ] app\api\controller\Test2->test[ C:\phpstudy\PHPTutorial\WWW\fastadmin\application\api\controller\Test2.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] UPDATE `fa_user`  SET `user_money`=50  WHERE  `id` = 8 [ RunTime:0.056003s ]
